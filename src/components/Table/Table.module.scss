@@ -1,0 +1,19 @@
+.container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin: auto;
+  
+  .header {
+    background: #000;
+    .title {
+      color: #fff;
+    }
+  }
+
+  .cell {
+    max-width: 500px;
+  }
+}
